@@ -30,33 +30,25 @@
   background-size: 110%;
 }
 
-#chr-container {
-  position: relative;
-}
-
 #chr-pic {
-  width: 100%;
-  height: 100%;
   background-image: url("../../images/chroma_logo_loop_md.gif");
   background-position: center;
   background-size: auto 100%;
   transition: background-image 1s, opacity 1s;
-  position: absolute;
 }
 
-#chr-pic:hover {
-  background-image: url("../../images/chroma_logo_loop_md.gif");
+/* #chr-pic:hover {
+  background-image: url("../../images/chroma_play.png");
   background-position: 50% 0%;
   background-size: 100% auto;
   opacity: 0;
-}
-
+} */
+/*
 #chr-hover {
   width: 100%;
   height: 100%;
   background-image: url("../../images/chroma_play.png");
   background-size: auto 100%;
-  position: absolute;
 }
 
 #chr-hover:hover {
@@ -64,7 +56,7 @@
   background-position: 50% 0%;
   background-size: 100% auto;
   animation: chroma 5s infinite alternate ease-in-out;
-}
+} */
 
 @keyframes chroma {
   0%{background-position: 50% 0%}
