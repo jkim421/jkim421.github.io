@@ -1,3 +1,3 @@
 Personal site for John Kim.
 
-Live Link: jkim421.github.io
+[Link to live site](https://jkim421.github.io/)
