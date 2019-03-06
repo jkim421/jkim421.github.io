@@ -1978,8 +1978,8 @@ input, select, textarea {
 			border-color: rgba(224, 224, 224, 0.75);
 			border-style: solid;
 			border-top-width: 1px;
-			margin-bottom: 6em;
-			padding: 4em 0;
+			margin-bottom: 4em;
+			padding: 2em 0;
 			position: relative;
 		}
 
