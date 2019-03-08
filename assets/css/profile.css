@@ -19,7 +19,7 @@
 }
 
 #ts-pic {
-  background-image: url("../../images/tunesmith_stitch.png");
+  background-image: url("../../images/tuneful.png");
   background-position: 20% 0%;
   background-size: 1600px;
   transition: background-size 1.5s ease-in-out, background-position 1.5s ease-in-out;
@@ -31,9 +31,114 @@
 }
 
 #chr-pic {
-  background-image: url("../../images/chroma_logo_loop_md.gif");
+  /* background-image: url("../../images/chroma_logo_loop_md.gif");
   background-position: center;
-  background-size: auto 100%;
+  background-size: auto 100%; */
+}
+
+#chr-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chroma-container {
+}
+
+.chroma-text {
+  font-size: 70px;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  user-select: none;
+}
+
+#chroma1 {
+  animation: 15s infinite alternate-reverse linear chroma1;
+}
+
+#chroma2 {
+  animation: 15s infinite alternate-reverse linear chroma2;
+}
+
+#chroma3 {
+  animation: 15s infinite alternate-reverse linear chroma3;
+}
+
+#chroma4 {
+  animation: 15s infinite alternate-reverse linear chroma4;
+}
+
+#chroma5 {
+  animation: 15s infinite alternate-reverse linear chroma5;
+}
+
+#chroma6 {
+  animation: 15s infinite alternate-reverse linear chroma6;
+}
+
+@keyframes chroma1 {
+  0%{color: red}
+  16%{color: orange}
+  33%{color: yellow}
+  50%{color: green}
+  66%{color: blue}
+  83%{color: indigo}
+  100%{color: violet}
+}
+
+@keyframes chroma2 {
+  0%{color: orange}
+  16%{color: yellow}
+  33%{color: green}
+  50%{color: blue}
+  66%{color: indigo}
+  83%{color: violet}
+  100%{color: red}
+}
+
+@keyframes chroma3 {
+  0%{color: yellow}
+  16%{color: green}
+  33%{color: blue}
+  50%{color: indigo}
+  66%{color: violet}
+  83%{color: red}
+  100%{color: orange}
+}
+
+@keyframes chroma4 {
+  0%{color: green}
+  16%{color: blue}
+  33%{color: indigo}
+  50%{color: violet}
+  66%{color: red}
+  83%{color: orange}
+  100%{color: yellow}
+}
+
+@keyframes chroma5 {
+  0%{color: blue}
+  16%{color: indigo}
+  33%{color: violet}
+  50%{color: red}
+  66%{color: orange}
+  83%{color: yellow}
+  100%{color: green}
+}
+
+@keyframes chroma6 {
+  0%{color: indigo}
+  16%{color: violet}
+  33%{color: red}
+  50%{color: orange}
+  66%{color: yellow}
+  83%{color: green}
+  100%{color: blue}
 }
 
 .skill-container {
