@@ -30,6 +30,25 @@
   background-size: 105%;
 }
 
+#midnite-pic {
+  background-image: url("../../images/midnite_home.png");
+  /* background-position: 20% 0%; */
+  background-size: cover;
+  /* transition: background-size 1.5s ease-in-out, background-position 1.5s ease-in-out; */
+  transition: background-image 0.5s ease-in-out;
+}
+/*
+#midnite-pic {
+  background-image: url("../../images/midnite.png");
+  background-position: 20% 0%;
+  background-size: contain;
+  transition: background-size 1.5s ease-in-out, background-position 1.5s ease-in-out;
+} */
+
+#midnite-pic:hover {
+  background-image: url("../../images/midnite_list.png");
+}
+
 #chr-pic {
   /* background-image: url("../../images/chroma_logo_loop_md.gif");
   background-position: center;
